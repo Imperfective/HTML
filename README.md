@@ -7,23 +7,23 @@
 https://developer.mozilla.org/ko/docs/Web/HTML<br><br>
 
 <h2>2) HTML Grammar – Tags</h2>
-- What is Tag? HTML is a set of tags, and tags are the most important and basic rules in HTML. Tags have the meaning of 'tags, name tags to show something', and they are interpreted as similar in HTML. When we write code using various tags, the browser recognizes it and expresses the content.
-- How to use tags: The tags are represented by the <,> symbol and have a name between the <,> symbols. Most tags consist of a start tag and an end tag, and the end tag is preceded by the '/' symbol. The actual screen will be located between the start and end tags.
+- What is Tag? HTML is a set of tags, and tags are the most important and basic rules in HTML. Tags have the meaning of 'tags, name tags to show something', and they are interpreted as similar in HTML. When we write code using various tags, the browser recognizes it and expresses the content.<br>
+- How to use tags: The tags are represented by the <,> symbol and have a name between the <,> symbols. Most tags consist of a start tag and an end tag, and the end tag is preceded by the '/' symbol. The actual screen will be located between the start and end tags.<br>
 <h1>Hello, HTML</h1> -> For the most basic example, code to output 'Hello, HTML' using <h1>
-https://www.w3schools.com/tags/ref_byfunc.asp
-- What is an element? The entire tag, including the content, is called an element. Tags and elements have different meanings, but many people use the same meaning as tags, so be careful not to confuse them.
-https://developer.mozilla.org/ko/docs/Web/HTML/Element
+https://www.w3schools.com/tags/ref_byfunc.asp<br>
+- What is an element? The entire tag, including the content, is called an element. Tags and elements have different meanings, but many people use the same meaning as tags, so be careful not to confuse them.<br>
+https://developer.mozilla.org/ko/docs/Web/HTML/Element<br><br>
 
-3) HTML Grammar – Properties
-- What is an attribute? An attribute is a setting that allows you to provide additional information to the tag or control the behavior or representation of the tag.
-- How to use properties: Properties consist of names and values. Separate the tag name with a space after the tag name in the start tag and express it as property name = 'Property value'. Attribute values are expressed in single quotes (') and double quotes (").
+<h2>3) HTML Grammar – Properties</h2>
+- What is an attribute? An attribute is a setting that allows you to provide additional information to the tag or control the behavior or representation of the tag.<br>
+- How to use properties: Properties consist of names and values. Separate the tag name with a space after the tag name in the start tag and express it as property name = 'Property value'. Attribute values are expressed in single quotes (') and double quotes (").<br>
 <h1 id="title">Hello, HTML</h1> -> <h1> Code for declaring the title value by adding the id attribute to the tag
-- How to use multiple properties: Multiple properties exist, depending on their meaning and purpose, and you can declare multiple properties in a single tag. Use spaces to declare multiple properties.
+- How to use multiple properties: Multiple properties exist, depending on their meaning and purpose, and you can declare multiple properties in a single tag. Use spaces to declare multiple properties.<br>
 <h1 id="title" class="main">Hello, HTML</h1> -> Code for declaring two attributes: id and class
-The declaration order of the properties does not affect the tag, and the result is the same even if the class is declared before id.
-- Type of property: Attributes are categorized by type into global properties available for all tags and attributes available only for specific tags. It is also divided into optional writable attributes and required attributes for a particular tag. The id and class used in the example are global properties.
-https://www.w3schools.com/tags/ref_standardattributes.asp
-https://www.w3schools.com/tags/ref_attributes.asp
+The declaration order of the properties does not affect the tag, and the result is the same even if the class is declared before id.<br>
+- Type of property: Attributes are categorized by type into global properties available for all tags and attributes available only for specific tags. It is also divided into optional writable attributes and required attributes for a particular tag. The id and class used in the example are global properties.<br>
+https://www.w3schools.com/tags/ref_standardattributes.asp<br>
+https://www.w3schools.com/tags/ref_attributes.asp<br><br>
 
 4) HTML Grammar – Tag Overlapping
 - Nesting Tags: You can declare another tag inside the tag. When using overlapping tags, overlapping child tags must not deviate from the parent tag.
