@@ -61,7 +61,7 @@ https://www.w3schools.com/tags/tag_comment.asp<br><br>
   <h2>8) The basic structure of a document</h2>
 - HTML Basic Structure (HTML Document): The basic structure of HTML is a basic content that must be entered when creating a Web document, and is largely divided into document type definitions and <html> elements.<br>
 <!DOCTYPE html>
-<html lang=”ko”>
+<html lang=”ko”> 
 <head>
 <meta charset=”UTF-8”>
 <title>HTML</title>
